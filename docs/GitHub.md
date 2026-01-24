@@ -1,3 +1,8 @@
+---
+title: Search
+nav_order: 1
+---
+
 ## Remember Personal Access Token
 ```
 git config --global credential.helper store
