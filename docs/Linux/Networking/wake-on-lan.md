@@ -1,3 +1,7 @@
+---
+title: Wake On LAN
+---
+
 ```
 # /etc/systemd/network/50-wired.link
 [Match]
@@ -13,3 +17,4 @@ sudo nmcli con show
 sudo nmcli c show "Ethernet" | grep 802-3-ethernet.wake-on-lan
 nmcli c modify "Ethernet" 802-3-ethernet.wake-on-lan magic
 ```
+

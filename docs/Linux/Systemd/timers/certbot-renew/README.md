@@ -1,3 +1,7 @@
+---
+title: README
+---
+
 ## Povolení a spuštění timeru
 ```bash
 sudo systemctl enable --now certbot-renew.timer
@@ -7,3 +11,4 @@ sudo systemctl enable --now certbot-renew.timer
 ```bash
 sudo systemctl list-timers --all
 ```
+

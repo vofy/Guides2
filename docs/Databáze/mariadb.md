@@ -1,3 +1,7 @@
+---
+title: ariadb
+---
+
 ## Instalace
 ```bash
 sudo dnf install mariadb-server && \
@@ -51,3 +55,4 @@ SELECT CONCAT( 'DROP TABLE ', GROUP_CONCAT(table_name) , ';' )
     WHERE table_name LIKE 'myprefix_%';
 ```
 Poté odešleme dotaz vypsaný předchozím dotazem
+

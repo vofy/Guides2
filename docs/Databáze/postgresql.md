@@ -1,3 +1,7 @@
+---
+title: ostgresql
+---
+
 ## Instalace
 fedora
 ```
@@ -56,3 +60,4 @@ Enter it again:
 ```
 ALTER ROLE
 ```
+

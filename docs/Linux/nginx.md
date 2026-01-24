@@ -1,3 +1,7 @@
+---
+title: nginx
+---
+
 # Nginx
 
 ## Upstream
@@ -11,3 +15,4 @@ upstream backend {
 
 ### Nginx proxy can't load web page or loads it after several reloads
 Check permissions of /var/lib/nginx
+

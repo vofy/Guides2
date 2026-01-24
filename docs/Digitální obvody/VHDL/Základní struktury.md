@@ -1,3 +1,7 @@
+---
+title: Základní truktury
+---
+
 # `Architecture`
 ## Struktura `when-else`
 - Nelze použít ve strutktuře `process`
@@ -32,3 +36,4 @@ else
   <...>
 end if;
 ```
+

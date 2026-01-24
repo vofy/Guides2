@@ -1,3 +1,7 @@
+---
+title: LinuxTV
+---
+
 # Linux TV
 
 ## Postup zprovoznění LinuxTV na Arch Linuxu a jeho derivací
@@ -18,3 +22,4 @@ sudo make install
 
 ### Vypsání všech modulů:
 `find /lib/modules/$(uname -r) -type f -name '*.ko'`
+

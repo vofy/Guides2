@@ -1,3 +1,7 @@
+---
+title: Linux
+---
+
 ### Arch linux nvidia proprietární ovladače - nvidia
 ```bash
 sudo yay -S nvidia nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils
@@ -37,3 +41,4 @@ Host myother realname2.example.org
     IdentityFile ~/.ssh/realname2_rsa  # different private key for realname2
     User remoteusername
 ```
+

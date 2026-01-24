@@ -1,3 +1,7 @@
+---
+title: Nvidia
+---
+
 # How to install the NVIDIA driver on Arch Linux.
 Backup of great [article](https://dev.to/vitorvargas/how-to-install-the-nvidia-driver-on-archlinux-5bgc) by [Vitor Vargas](https://dev.to/vitorvargas)
 
@@ -133,3 +137,4 @@ Sources
 
 - [ArchLinux Docs: NVIDIA](https://wiki.archlinux.org/title/NVIDIA)
 - [ArchLinux Docs: NVIDIA Optimus](https://wiki.archlinux.org/title/NVIDIA_Optimus#Display_managers)
+

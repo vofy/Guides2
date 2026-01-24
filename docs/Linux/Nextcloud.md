@@ -1,3 +1,7 @@
+---
+title: Nextcloud
+---
+
 
 ## Řešení problémů
 Zkontrolujte logy:
@@ -40,3 +44,4 @@ V adresáři `/etc/dnf/plugins/post-transaction-actions.d/` vytvoříme soubor s
 ```
 
 Pokud je vše dobře nastavené, po aktualizaci, instalaci či reinstalaci by se měla zobrazit správná oprávnění u vypsaných adresářů.
+

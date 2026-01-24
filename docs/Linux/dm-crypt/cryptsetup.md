@@ -1,3 +1,7 @@
+---
+title: Cryptsetup
+---
+
 # Cryptsetup
 
 ## Commands
@@ -49,3 +53,4 @@ cryptsetup luksAddKey /dev/<device> /crypto_keyfile.bin
 - https://gock.net/blog/2020/luks-encryption-cheat-sheet/
 - https://www.thegeekstuff.com/2016/03/cryptsetup-lukskey/
 - https://wiki.archlinux.org/title/dm-crypt/Encrypting_an_entire_system
+

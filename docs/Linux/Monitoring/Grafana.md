@@ -1,3 +1,7 @@
+---
+title: Grafana
+---
+
 # Grafana
 
 ## SSO - Keycloak
@@ -10,3 +14,4 @@
     - Položka `client roles`
     - Toggle `Add to ID token` => true
 - Nastavení v sekci [auth.generic_oauth] konfiguračního souboru `/etc/grafana/grafana.ini`
+

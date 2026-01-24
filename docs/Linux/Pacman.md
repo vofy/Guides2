@@ -1,3 +1,7 @@
+---
+title: Pacman
+---
+
 ### Overwrite present files
 ```
 sudo pacman -S --overwrite /* <app>
@@ -12,3 +16,4 @@ sudo pacman -Q
 ```
 sudo pacman -Qm
 ```
+

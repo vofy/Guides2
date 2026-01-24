@@ -1,3 +1,7 @@
+---
+title: sefull inux ackages
+---
+
 ## Audio
 * `mixxx` - mix
 * `easyeffects` - equalizér, bass enhancer, balancer, ...
@@ -150,3 +154,4 @@
 
 #### IdP
 * `Shibboleth`, `Keycloak`, `ORY Hydra`, `Authelia`, `LemonLDAP::NG`
+

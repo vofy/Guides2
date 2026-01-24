@@ -1,3 +1,7 @@
+---
+title: Keycloak
+---
+
 # Keycloak
 
 ## Fixes
@@ -31,3 +35,4 @@ curl \
 
 ## Useful links
 https://medium.com/@iamestelleyu/using-keycloak-in-grafana-228010ef3735
+

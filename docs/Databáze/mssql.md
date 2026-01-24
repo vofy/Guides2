@@ -1,3 +1,7 @@
+---
+title: ssql
+---
+
 ```mssql
 CREATE LOGIN username WITH PASSWORD = ***;
 CREATE USER username FOR LOGIN username;
@@ -8,3 +12,4 @@ CREATE DATABASE databasename;
 USE databasename;
 ALTER AUTHORIZATION ON DATABASE::databasename TO username;
 ```
+

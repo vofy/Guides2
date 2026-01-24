@@ -1,3 +1,7 @@
+---
+title: lternativní oftware ro rodukty polečnosti icrosoft
+---
+
 
 | Role | Popis role | Microsoft (Windows) | Open-Source (Linux) |
 | ---- | ---------- | ------------------- | ------------------- |
@@ -7,3 +11,4 @@
 | Řadič domény | | AD | 389-ds |
 | GPO | Politiky, tato řešení umožňují i vzdálené instalace a aktualizace SW | GPO | Ansible, Puppet, SaltStack (Foreman) |
 | Office Suite | Kancelářské balíky online | Office Online | Nextcloud + OnlyOffice, Collabora Office |
+

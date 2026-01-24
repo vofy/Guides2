@@ -1,3 +1,7 @@
+---
+title: L2TP
+---
+
 # VPN přes L2TP/IPsec
 
 Balíky: **networkmanager networkmanager-l2tp networkmanager-strongswan**/networkmanager-libreswan
@@ -53,3 +57,4 @@ Nyní zapneme službu NetworkManager:
 ```bash
 sudo systemctl start NetworkManager
 ```
+
