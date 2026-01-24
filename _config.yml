@@ -2,7 +2,16 @@ title: Guides
 description: Pretty usefull guides to do variety of things
 theme: just-the-docs
 
-url: https://vofy.github.io/Guides2/
+baseurl: "/Guides2"
+url: https://vofy.github.io
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
 
 aux_links:
   Source: https://github.com/vofy/Guides2
