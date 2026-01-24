@@ -1,6 +1,5 @@
 ---
-title: Search
-nav_order: 1
+title: GitHub
 ---
 
 ## Remember Personal Access Token
