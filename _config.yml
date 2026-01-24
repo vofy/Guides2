@@ -1,8 +1,8 @@
-title: HDL
-description: HDL reference and snippets
+title: Guides
+description: Pretty usefull guides to do variety of things
 theme: just-the-docs
 
-url: https://vofy.github.io/hdl/
+url: https://vofy.github.io/Guides2/
 
 aux_links:
-  Source: https://github.com/vofy/hdl
+  Source: https://github.com/vofy/Guides2
