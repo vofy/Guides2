@@ -1,6 +1,8 @@
 ---
+parent: Digitální obvody/VHDL
 title: Základní truktury
 ---
+parent: VHDL
 
 # `Architecture`
 ## Struktura `when-else`
@@ -36,4 +38,11 @@ else
   <...>
 end if;
 ```
+
+
+
+
+
+
+
 

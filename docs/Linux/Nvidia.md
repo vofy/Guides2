@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: Nvidia
 ---
 
@@ -11,6 +12,7 @@ Checking the NVIDIA GPU Architecture
 
 Before proceeding, it is crucial to check the exact architecture of the NVIDIA GPU installed on your system. This will ensure correct compatibility with the appropriate driver. Run the following command to identify your GPU's architecture:
 
+parent: Linux
 ```
 lspci | grep -E "VGA|3D"
 ```
@@ -137,4 +139,11 @@ Sources
 
 - [ArchLinux Docs: NVIDIA](https://wiki.archlinux.org/title/NVIDIA)
 - [ArchLinux Docs: NVIDIA Optimus](https://wiki.archlinux.org/title/NVIDIA_Optimus#Display_managers)
+
+
+
+
+
+
+
 

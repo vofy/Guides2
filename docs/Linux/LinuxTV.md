@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: LinuxTV
 ---
 
@@ -8,6 +9,7 @@ title: LinuxTV
 1. Instalace linux515-headers
 2. Instalace firmwaru 
 ```sh
+parent: Linux
 git clone git://linuxtv.org/media_build.git
 cd media_build
 ./build
@@ -22,4 +24,11 @@ sudo make install
 
 ### Vypsání všech modulů:
 `find /lib/modules/$(uname -r) -type f -name '*.ko'`
+
+
+
+
+
+
+
 

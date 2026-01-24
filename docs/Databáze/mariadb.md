@@ -1,4 +1,5 @@
 ---
+parent: Databáze
 title: ariadb
 ---
 
@@ -55,4 +56,11 @@ SELECT CONCAT( 'DROP TABLE ', GROUP_CONCAT(table_name) , ';' )
     WHERE table_name LIKE 'myprefix_%';
 ```
 Poté odešleme dotaz vypsaný předchozím dotazem
+
+
+
+
+
+
+
 

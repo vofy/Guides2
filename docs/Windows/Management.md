@@ -1,4 +1,5 @@
 ---
+parent: Windows
 title: anagement
 ---
 
@@ -6,4 +7,13 @@ title: anagement
 Install-Module PSWindowsUpdate
 Get-WindowsUpdate -Install
 ```
+
+
+parent: Windows
+
+
+
+
+
+
 

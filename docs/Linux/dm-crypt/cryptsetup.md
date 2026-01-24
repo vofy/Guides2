@@ -1,4 +1,5 @@
 ---
+parent: Linux/dm-crypt
 title: Cryptsetup
 ---
 
@@ -14,6 +15,7 @@ sudo cryptsetup open /dev/<device> <mapped_name>
 ### Mount mapped (opened) volume
 ```
 mount -o rw /dev/mapper/<mapped_name> /mnt
+parent: dm-crypt
 ```
 
 ### Dump LUKS header
@@ -53,4 +55,11 @@ cryptsetup luksAddKey /dev/<device> /crypto_keyfile.bin
 - https://gock.net/blog/2020/luks-encryption-cheat-sheet/
 - https://www.thegeekstuff.com/2016/03/cryptsetup-lukskey/
 - https://wiki.archlinux.org/title/dm-crypt/Encrypting_an_entire_system
+
+
+
+
+
+
+
 

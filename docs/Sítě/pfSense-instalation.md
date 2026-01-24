@@ -1,4 +1,5 @@
 ---
+parent: Sítě
 title: fSense nstalation
 ---
 
@@ -7,4 +8,13 @@ title: fSense nstalation
 ```
 Serial speed: 115200
 ```
+
+
+parent: Sítě
+
+
+
+
+
+
 

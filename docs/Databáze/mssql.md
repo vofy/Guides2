@@ -1,5 +1,6 @@
 ---
-title: ssql
+parent: Databáze
+title: mssql
 ---
 
 ```mssql
@@ -12,4 +13,11 @@ CREATE DATABASE databasename;
 USE databasename;
 ALTER AUTHORIZATION ON DATABASE::databasename TO username;
 ```
+
+
+
+
+
+
+
 

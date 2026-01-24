@@ -1,4 +1,5 @@
 ---
+parent: Linux/Docker
 title: README
 ---
 
@@ -16,6 +17,7 @@ Odstranění všech obrazů (images), které nejsou využívané existujcími ko
 docker image prune -a
 ```
 ## Nejčastější příkazy
+parent: Docker
 
 ### Nový kontejner
 - Slouží k vytvoření instance (kontejneru) na základě obrazu (musí být vždy na konci příkazu)
@@ -33,4 +35,11 @@ docker container ls -a
 ```bash
 docker container start/stop/rm <id/nazev>
 ```
+
+
+
+
+
+
+
 

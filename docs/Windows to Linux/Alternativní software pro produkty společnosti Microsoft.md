@@ -1,5 +1,6 @@
 ---
-title: lternativní oftware ro rodukty polečnosti icrosoft
+parent: Windows to Linux
+title: Alternativní software pro produkty společnosti Microsoft
 ---
 
 
@@ -11,4 +12,13 @@ title: lternativní oftware ro rodukty polečnosti icrosoft
 | Řadič domény | | AD | 389-ds |
 | GPO | Politiky, tato řešení umožňují i vzdálené instalace a aktualizace SW | GPO | Ansible, Puppet, SaltStack (Foreman) |
 | Office Suite | Kancelářské balíky online | Office Online | Nextcloud + OnlyOffice, Collabora Office |
+
+
+parent: Windows to Linux
+
+
+
+
+
+
 

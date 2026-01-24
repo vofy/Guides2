@@ -1,9 +1,11 @@
 ---
+parent: Linux
 title: Firefox
 ---
 
 # Oprava fontů ve Firefoxu
 Firefox z nějakého důvodu nezobrazoval správně fonty `Helvetica` a `Nimbus Sans` (diakritika velkých písmen byla shora ořízlá). Nejspíše se tomu dělo proto, že font přesahoval akcentovou dotažnici.
+parent: Linux
 
 ## Řešení
 Do `$HOME/.config/fontconfig/fonts.conf` nebo `/etc/fonts/local.conf` přidat následující nastavení, které bude nahrazovat Helveticu Arialem:
@@ -18,4 +20,11 @@ Do `$HOME/.config/fontconfig/fonts.conf` nebo `/etc/fonts/local.conf` přidat n�
     </edit>
 </match>
 ```
+
+
+
+
+
+
+
 

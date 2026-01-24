@@ -1,4 +1,5 @@
 ---
+parent: Linux/Networking/VPN
 title: L2TP
 ---
 
@@ -21,6 +22,7 @@ sudo NetworkManager --debug
 
 Po pokusu o připojení k VPN se vypíše následující to indikuje problém se službou ipsec.service
 ```log
+parent: VPN
 <info>  [1631359133.0728] audit: op="connection-activate" uuid="f56623e4-7131-492d-9168-38e1e87d9aeb" name="VPN 1" pid=1734 uid=1000 result="success"
 <info>  [1631359133.0787] vpn-connection[0x5568c1d0e0f0,f56623e4-7131-492d-9168-38e1e87d9aeb,"VPN 1",0]: Started the VPN service, PID 54798
 <info>  [1631359133.0842] vpn-connection[0x5568c1d0e0f0,f56623e4-7131-492d-9168-38e1e87d9aeb,"VPN 1",0]: Saw the service appear; activating connection
@@ -57,4 +59,11 @@ Nyní zapneme službu NetworkManager:
 ```bash
 sudo systemctl start NetworkManager
 ```
+
+
+
+
+
+
+
 

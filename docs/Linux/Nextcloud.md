@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: Nextcloud
 ---
 
@@ -9,6 +10,7 @@ Zkontrolujte logy:
 tail /var/www/nextcloud/data/nextcloud.log
 tail /var/log/nginx/access.log
 tail /var/log/nginx/error.log
+parent: Linux
 ```
 
 ### Login loop without any clue in access.log, error.log, nor nextcloud.log
@@ -44,4 +46,11 @@ V adresáři `/etc/dnf/plugins/post-transaction-actions.d/` vytvoříme soubor s
 ```
 
 Pokud je vše dobře nastavené, po aktualizaci, instalaci či reinstalaci by se měla zobrazit správná oprávnění u vypsaných adresářů.
+
+
+
+
+
+
+
 

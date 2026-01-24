@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: Keycloak
 ---
 
@@ -6,6 +7,7 @@ title: Keycloak
 
 ## Fixes
 ### Error 403 Forbidden on `https://<domain>/realms/<realm>/account`
+parent: Linux
 - Select realm
 - Select `Client scopes`
 - Select `roles`
@@ -35,4 +37,11 @@ curl \
 
 ## Useful links
 https://medium.com/@iamestelleyu/using-keycloak-in-grafana-228010ef3735
+
+
+
+
+
+
+
 

@@ -1,7 +1,9 @@
 ---
+parent: Digitální obvody/VHDL/Příklady
 title: Multiplexer
 ---
 
+parent: Příklady
 # Multiplexer
 - Slouží k přepínání jednoho z více vstupy k jeho výstupu
 
@@ -30,4 +32,11 @@ begin
   mux5: mux4_1 port map(a=>m,s=>s(3 downto 2),y=>y);
 end Behavioral;
 ```
+
+
+
+
+
+
+
 

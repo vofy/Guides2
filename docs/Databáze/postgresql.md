@@ -1,5 +1,6 @@
 ---
-title: ostgresql
+parent: Databáze
+title: Postgresql
 ---
 
 ## Instalace
@@ -60,4 +61,11 @@ Enter it again:
 ```
 ALTER ROLE
 ```
+
+
+
+
+
+
+
 

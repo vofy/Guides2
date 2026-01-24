@@ -1,4 +1,5 @@
 ---
+parent: Linux/Networking
 title: Wake On LAN
 ---
 
@@ -17,4 +18,13 @@ sudo nmcli con show
 sudo nmcli c show "Ethernet" | grep 802-3-ethernet.wake-on-lan
 nmcli c modify "Ethernet" 802-3-ethernet.wake-on-lan magic
 ```
+
+
+parent: Networking
+
+
+
+
+
+
 

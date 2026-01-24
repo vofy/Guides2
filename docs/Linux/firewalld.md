@@ -1,10 +1,12 @@
 ---
+parent: Linux
 title: Firewalld
 ---
 
 ### List all awailable zones
 `sudo firewall-cmd --get-zones`
 
+parent: Linux
 ### Set public as default zone
 `sudo firewall-cmd --set-default public`
 
@@ -57,4 +59,11 @@ This adds a new service using all the settings from the file including the servi
 `firewall-cmd --permanent --new-service-from-file=myservice.xml --name=mynewservice`
 
 This adds a new service using the service settings from the file. The new service will have the name mynewservice.
+
+
+
+
+
+
+
 

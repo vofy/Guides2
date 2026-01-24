@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: Pacman
 ---
 
@@ -12,8 +13,16 @@ sudo pacman -S --overwrite /* <app>
 sudo pacman -Q
 ```
 
+parent: Linux
 ### LIst installed AUR packages
 ```
 sudo pacman -Qm
 ```
+
+
+
+
+
+
+
 

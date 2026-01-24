@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: nginx
 ---
 
@@ -10,9 +11,17 @@ upstream backend {
     server localhost:50001;
 }
 ```
+parent: Linux
 
 ## Opravy
 
 ### Nginx proxy can't load web page or loads it after several reloads
 Check permissions of /var/lib/nginx
+
+
+
+
+
+
+
 

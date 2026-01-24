@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: Linux
 ---
 
@@ -7,6 +8,7 @@ title: Linux
 sudo yay -S nvidia nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils
 sudo bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+parent: Linux
 ```
 
 /etc/mkinitcpio.conf
@@ -41,4 +43,11 @@ Host myother realname2.example.org
     IdentityFile ~/.ssh/realname2_rsa  # different private key for realname2
     User remoteusername
 ```
+
+
+
+
+
+
+
 

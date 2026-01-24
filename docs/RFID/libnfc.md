@@ -1,4 +1,5 @@
 ---
+parent: RFID
 title: ibnfc
 ---
 
@@ -6,4 +7,13 @@ title: ibnfc
 ```sh
 nfc-mfclassic W a u data.mfd
 ```
+
+
+parent: RFID
+
+
+
+
+
+
 

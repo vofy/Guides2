@@ -1,4 +1,5 @@
 ---
+parent: Programming/Rust
 title: argo
 ---
 
@@ -7,4 +8,13 @@ title: argo
 ```
 sudo cargo install --root /opt <package>
 ```
+
+
+parent: Rust
+
+
+
+
+
+
 

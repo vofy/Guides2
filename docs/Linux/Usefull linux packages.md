@@ -1,4 +1,5 @@
 ---
+parent: Linux
 title: sefull inux ackages
 ---
 
@@ -13,6 +14,7 @@ title: sefull inux ackages
 
 ## Elektro
 * `qucs` - simulátor obvodů
+parent: Linux
 * `kicad` - PCB design
 * `ngspice`, `ltspice` - Simulace obvodů
 
@@ -154,4 +156,11 @@ title: sefull inux ackages
 
 #### IdP
 * `Shibboleth`, `Keycloak`, `ORY Hydra`, `Authelia`, `LemonLDAP::NG`
+
+
+
+
+
+
+
 
